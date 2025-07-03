@@ -22,6 +22,7 @@ class UserController
             'documentNumber',
             'birthdate',
             'documentTypeId'
+
         ];
 
         foreach ($requiredFields as $field) {
