@@ -1,5 +1,4 @@
 <?php
-// controllers/CountryController.php
 
 require_once __DIR__ . '/../models/Country.php';
 
@@ -14,4 +13,3 @@ class CountryController
         echo json_encode(['data' => $data]);
     }
 }
-    
